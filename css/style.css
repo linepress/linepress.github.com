@@ -1,6 +1,14 @@
-html, body { margin: 0; padding: 0; height: 100%; }
+html, body { 
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
 
 h1,h2,h3,h4,h5,h6,p { margin: 0; padding: 0; }
+
+a { 
+	text-decoration: none;
+}
 
 body { 
 	background-color: #fff; 
@@ -30,4 +38,20 @@ html > body {
 	width: 200px;
 	height: 200px;
 	text-align: center;
+}
+
+.site-logo {
+	width: 200px;
+	height: 200px;
+}
+.site-title a {
+	color: #c0c0c0;
+}
+.site-title a:hover {
+	color: #414141;
+}
+@media (max-width: 480px) {
+	.header {
+		top: 75%;
+	}
 }
